@@ -52,18 +52,19 @@
         </div>
     </form>
     <script>
-        function myFunction() {
-            let uname = document.myForm.uname.value;
-            let psw = document.myForm.psw.value;
-            if (uname !== "admin" || psw !== "admin123") {
-                alert("No user found");
-                return false;
-            } else {
-                windows.location.href="home.html"
-            }
-            return true;
+    function myFunction() {
+        let uname = document.myForm.uname.value;
+        let psw = document.myForm.psw.value;
+        if (uname !== "admin" || psw !== "admin123") {
+            alert("No user found");
+            return false;
+        } else {
+            window.location.href = "https://Atharvsurya.github.io/Login/home.html";
+            return false;
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
 </html>
